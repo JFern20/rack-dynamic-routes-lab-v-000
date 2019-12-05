@@ -8,6 +8,7 @@ class Application
     req = Rack::Response.new(env)
     
     if req.path.match(/items\/.+/)
+      item
     
     
     
